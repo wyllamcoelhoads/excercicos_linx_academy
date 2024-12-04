@@ -4,42 +4,42 @@ public class Douctor implements Personagem{
 
 	@Override
 	public void direita() {
-		System.out.print("Moveu um para a direita!");
+		System.out.println("Moveu um para a direita!");
 		
 	}
 
 	@Override
 	public void esquerda() {
 		// TODO Auto-generated method stub
-		System.out.print("Moveu um para a esquerda!");
+		System.out.println("Moveu um para a esquerda!");
 	}
 
 	@Override
 	public void cima() {
 		// TODO Auto-generated method stub
-		System.out.print("Moveu um para cima!");
+		System.out.println("Moveu um para cima!");
 		
 	}
 
 	@Override
 	public void baixo() {
 		// TODO Auto-generated method stub
-		System.out.print("Moveu um para baixo!");
+		System.out.println("Moveu um para baixo!");
 		
 	}
-
+	String diz;
 	@Override
 	public void falar(String palavra) {
 		// TODO Auto-generated method stub
-		String diz = null;
-		System.out.print(diz);
+		diz = palavra ;
+		System.out.println(diz);
 		
 	}
 
 	@Override
 	public void pensar() {
 		// TODO Auto-generated method stub
-		System.out.print("o que estou fazendo?");
+		System.out.println("o que estou fazendo?");
 		
 	}
 
